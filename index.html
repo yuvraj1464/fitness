@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvi Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    /*css reset*/
+    body {
+        color: white;
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym1.jpg.jpg');
+        background-repeat: no-repeat;
+        background-size: 2200px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+
+    }
+
+    .left img {
+        width: 146px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+
+
+    }
+
+    .btn {
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 0px 9px;
+        background-color: rgba(231, 166, 142, 0.835);
+        color: whitesmoke;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 4px 14px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(161, 75, 75);
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(161, 75, 75);
+    }
+
+    .container {
+        border: 1px solid white;
+        position: absolute;
+        padding: 45px;
+        margin: 166px 80px;
+        border-radius: 38px;
+    }
+
+    .form-group input {
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        font-size: 28px;
+        border: 1px solid blue;
+        margin: 16px auto;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 50%;
+        margin: 40px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="/img/gym logo.png.png" alt="">
+            <div>Yuvi Fitness</div>
+
+        </div>
+
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+
+    </header>
+    <div class="container">
+        <h1>JOIN THE BIGEST GYM IN KANPUR</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
